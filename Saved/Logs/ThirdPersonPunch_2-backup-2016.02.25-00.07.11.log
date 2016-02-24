@@ -1,0 +1,84 @@
+﻿[2016.02.24-16.06.52:625][  0]Log file open, 02/25/16 00:06:52
+[2016.02.24-16.06.52:625][  0]LogInit:Display: Running engine for game: ThirdPersonPunch
+[2016.02.24-16.06.52:625][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.24-16.06.52:625][  0]LogInit:Display: RandInit(1438003329) SRandInit(1438003350).
+[2016.02.24-16.06.52:625][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.02.24-16.06.52:625][  0]LogStats: Stats thread started at 0.126327
+[2016.02.24-16.06.52:625][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.24-16.06.52:625][  0]LogInit: API Version: 2758231
+[2016.02.24-16.06.52:625][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.24-16.06.52:625][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.24-16.06.52:625][  0]LogInit: Build Configuration: Development
+[2016.02.24-16.06.52:625][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.24-16.06.52:625][  0]LogInit: Command line:  /Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2016.02.24-16.06.52:625][  0]LogInit: Base directory: D:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.24-16.06.52:625][  0]LogInit: Rocket: 1
+[2016.02.24-16.06.52:642][  0]LogInit: Using libcurl 7.41.0
+[2016.02.24-16.06.52:642][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.24-16.06.52:642][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.24-16.06.52:642][  0]LogInit:  - other features:
+[2016.02.24-16.06.52:642][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.24-16.06.52:642][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.24-16.06.52:642][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.24-16.06.52:642][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.24-16.06.52:642][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.24-16.06.52:643][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.24-16.06.52:643][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.24-16.06.52:643][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.24-16.06.52:643][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.24-16.06.52:643][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.24-16.06.52:657][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.24-16.06.52:677][  0]LogInit: Object subsystem initialized
+[2016.02.24-16.06.52:678][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-16.06.52:678][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.24-16.06.52:684][  0]LogInit: Computer: DESKTOP-63HJ9HN
+[2016.02.24-16.06.52:684][  0]LogInit: User: ShaunGoh
+[2016.02.24-16.06.52:684][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.02.24-16.06.52:684][  0]LogInit: High frequency timer resolution =3.609378 MHz
+[2016.02.24-16.06.52:684][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.24-16.06.52:684][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-16.06.52:684][  0]LogMemory: Process Physical Memory: 55.26 MB used, 55.26 MB peak
+[2016.02.24-16.06.52:684][  0]LogMemory: Process Virtual Memory: 55.58 MB used, 55.58 MB peak
+[2016.02.24-16.06.52:684][  0]LogMemory: Physical Memory: 5733.26 MB used, 8113.81 MB total
+[2016.02.24-16.06.52:684][  0]LogMemory: Virtual Memory: 376.58 MB used, 134217728.00 MB total
+[2016.02.24-16.06.52:748][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.24-16.06.53:968][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.02.24-16.06.53:968][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 1 output[s]
+[2016.02.24-16.06.53:971][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.24-16.06.53:971][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 0 output[s]
+[2016.02.24-16.06.53:971][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.24-16.06.53:987][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.24-16.06.53:987][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.24-16.06.53:995][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.24-16.06.54:010][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Intermediate/Shaders/WorkingDirectory/3816/).
+[2016.02.24-16.06.54:010][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SHAUNG~1/AppData/Local/Temp/UnrealShaderWorkingDir/9F43A056444BE62328EFD4A74E8D93B2/'.
+[2016.02.24-16.06.54:010][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.24-16.06.55:458][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.24-16.06.55:465][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.24-16.06.55:474][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.24-16.06.55:479][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.24-16.06.55:484][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.24-16.06.55:488][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.24-16.06.55:494][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.24-16.06.55:498][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.24-16.06.55:501][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.24-16.06.55:507][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.24-16.06.55:511][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.24-16.06.55:519][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.24-16.06.55:519][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.24-16.06.55:520][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.24-16.06.55:539][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.24-16.06.55:544][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.24-16.06.55:550][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.24-16.06.55:555][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.24-16.06.55:555][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.24-16.06.55:657][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.24-16.06.55:756][  0]LogDerivedDataCache: Loaded boot cache 0.10s 41MB C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.24-16.06.55:756][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.24-16.06.55:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.24-16.06.55:756][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.24-16.06.55:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.24-16.06.55:756][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.24-16.06.55:826][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.24-16.06.55:838][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun Goh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.24-16.0

@@ -1,0 +1,189 @@
+﻿[2016.02.24-16.07.11:159][  0]Log file open, 02/25/16 00:07:11
+[2016.02.24-16.07.11:159][  0]LogInit:Display: Running engine for game: ThirdPersonPunch
+[2016.02.24-16.07.11:159][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.24-16.07.11:159][  0]LogInit:Display: RandInit(1505291342) SRandInit(1505291354).
+[2016.02.24-16.07.11:159][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.02.24-16.07.11:159][  0]LogStats: Stats thread started at 0.097253
+[2016.02.24-16.07.11:159][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.24-16.07.11:159][  0]LogInit: API Version: 2758231
+[2016.02.24-16.07.11:159][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.24-16.07.11:159][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.24-16.07.11:159][  0]LogInit: Build Configuration: Development
+[2016.02.24-16.07.11:159][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.24-16.07.11:159][  0]LogInit: Command line:  /Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2016.02.24-16.07.11:159][  0]LogInit: Base directory: D:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.24-16.07.11:159][  0]LogInit: Rocket: 1
+[2016.02.24-16.07.11:188][  0]LogInit: Using libcurl 7.41.0
+[2016.02.24-16.07.11:188][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.24-16.07.11:188][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.24-16.07.11:188][  0]LogInit:  - other features:
+[2016.02.24-16.07.11:188][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.24-16.07.11:188][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.24-16.07.11:188][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.24-16.07.11:188][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.24-16.07.11:188][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.24-16.07.11:188][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.24-16.07.11:188][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.24-16.07.11:188][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.24-16.07.11:188][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.24-16.07.11:188][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.24-16.07.11:202][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.24-16.07.11:222][  0]LogInit: Object subsystem initialized
+[2016.02.24-16.07.11:224][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-16.07.11:224][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.24-16.07.11:232][  0]LogInit: Computer: DESKTOP-63HJ9HN
+[2016.02.24-16.07.11:232][  0]LogInit: User: ShaunGoh
+[2016.02.24-16.07.11:232][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.02.24-16.07.11:232][  0]LogInit: High frequency timer resolution =3.609378 MHz
+[2016.02.24-16.07.11:233][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.24-16.07.11:233][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-16.07.11:233][  0]LogMemory: Process Physical Memory: 55.24 MB used, 55.24 MB peak
+[2016.02.24-16.07.11:233][  0]LogMemory: Process Virtual Memory: 55.50 MB used, 55.50 MB peak
+[2016.02.24-16.07.11:233][  0]LogMemory: Physical Memory: 5551.79 MB used, 8113.81 MB total
+[2016.02.24-16.07.11:233][  0]LogMemory: Virtual Memory: 376.58 MB used, 134217728.00 MB total
+[2016.02.24-16.07.11:284][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.24-16.07.12:211][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.02.24-16.07.12:211][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 1 output[s]
+[2016.02.24-16.07.12:217][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.24-16.07.12:218][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 0 output[s]
+[2016.02.24-16.07.12:218][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.24-16.07.12:227][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.24-16.07.12:227][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.24-16.07.12:234][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.24-16.07.12:244][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Intermediate/Shaders/WorkingDirectory/6744/).
+[2016.02.24-16.07.12:244][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SHAUNG~1/AppData/Local/Temp/UnrealShaderWorkingDir/AB851CE5414384AD8E239B9B17E7D81F/'.
+[2016.02.24-16.07.12:244][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.24-16.07.13:584][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.24-16.07.13:594][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.24-16.07.13:598][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.24-16.07.13:604][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.24-16.07.13:610][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.24-16.07.13:612][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.24-16.07.13:618][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.24-16.07.13:628][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.24-16.07.13:632][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.24-16.07.13:637][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.24-16.07.13:640][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.24-16.07.13:647][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.24-16.07.13:647][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.24-16.07.13:648][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.24-16.07.13:670][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.24-16.07.13:673][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.24-16.07.13:676][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.24-16.07.13:679][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.24-16.07.13:679][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.24-16.07.13:761][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.24-16.07.13:841][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.24-16.07.13:841][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.24-16.07.13:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.24-16.07.13:841][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.24-16.07.13:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.24-16.07.13:841][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.24-16.07.13:934][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.24-16.07.13:948][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun Goh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.24-16.07.14:457][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-16.07.14:460][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.02.24-16.07.14:497][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2016.02.24-16.12.02:619][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2016.02.24-16.12.04:406][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2016.02.24-16.12.04:880][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2016.02.24-16.12.06:464][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.02.24-16.12.06:495][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.02.24-16.12.06:499][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.02.24-16.12.06:505][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.02.24-16.12.06:521][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.02.24-16.12.06:531][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.02.24-16.12.06:602][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.24-16.12.06:602][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.24-16.12.06:667][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2016.02.24-16.12.06:689][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2016.02.24-16.12.06:837][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2016.02.24-16.12.06:866][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2016.02.24-16.12.06:897][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2016.02.24-16.12.06:919][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2016.02.24-16.12.06:963][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2016.02.24-16.12.07:006][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2016.02.24-16.12.07:084][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2016.02.24-16.12.07:174][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.24-16.12.08:000][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Movies/Default_Startup.mp4
+[2016.02.24-16.12.08:094][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2016.02.24-16.12.08:101][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2016.02.24-16.12.08:220][  0]SourceControl: Info Source control is disabled
+[2016.02.24-16.12.08:220][  0]SourceControl: Info Source control is disabled
+[2016.02.24-16.12.08:246][  0]SourceControl: Info Source control is disabled
+[2016.02.24-16.12.08:469][  0]LogMaterial: Missing cached shader map for material LM_HandColor, compiling. 
+[2016.02.24-16.12.08:539][  0]LogMaterial: Missing cached shader map for material LM_PassthroughMaterial, compiling. 
+[2016.02.24-16.12.08:887][  0]LogObj: 27935 objects as part of root set at end of initial load.
+[2016.02.24-16.12.08:887][  0]LogUObjectAllocator: 5830064 out of 0 bytes used by permanent object pool.
+[2016.02.24-16.12.08:988][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2016.02.24-16.12.09:008][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2016.02.24-16.12.09:028][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2016.02.24-16.12.09:075][  0]LogEngine: Initializing Engine...
+[2016.02.24-16.12.09:076][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.24-16.12.09:128][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.24-16.12.09:147][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2016.02.24-16.12.09:173][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2016.02.24-16.12.09:421][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2016.02.24-16.12.09:458][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.02.24-16.12.09:458][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.02.24-16.12.09:458][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.02.24-16.12.09:466][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2016.02.24-16.12.09:725][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2016.02.24-16.12.09:755][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2016.02.24-16.12.09:804][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2016.02.24-16.12.09:823][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2016.02.24-16.12.09:829][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2016.02.24-16.12.09:838][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2016.02.24-16.12.09:858][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2016.02.24-16.12.09:865][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2016.02.24-16.12.09:873][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2016.02.24-16.12.09:891][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2016.02.24-16.12.09:917][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2016.02.24-16.12.09:941][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.24-16.12.09:976][  0]LogInit: FAudioDevice initialized.
+[2016.02.24-16.12.09:993][  0]LogInit: Texture streaming: Enabled
+[2016.02.24-16.12.09:998][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2016.02.24-16.12.10:003][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2016.02.24-16.12.10:021][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.02.24-16.12.10:023][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.02.24-16.12.10:023][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.02.24-16.12.10:025][  0]LogMaterial: Missing cached shader map for material DecalMask, compiling. 
+[2016.02.24-16.12.10:029][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2016.02.24-16.12.10:035][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2016.02.24-16.12.10:040][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2016.02.24-16.12.10:052][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2016.02.24-16.12.10:059][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2016.02.24-16.12.10:067][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2016.02.24-16.12.10:073][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2016.02.24-16.12.10:087][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2016.02.24-16.12.10:098][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2016.02.24-16.12.10:102][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2016.02.24-16.12.10:107][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2016.02.24-16.12.10:120][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2016.02.24-16.12.10:135][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2016.02.24-16.12.10:141][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2016.02.24-16.12.10:152][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2016.02.24-16.12.10:157][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2016.02.24-16.12.10:255][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.02.24-16.12.10:256][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.02.24-16.12.10:256][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.02.24-16.12.10:294][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.02.24-16.12.10:294][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.02.24-16.12.10:294][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.02.24-16.12.10:361][  0]LogNet: Browse: /Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default?Name=Player
+[2016.02.24-16.12.10:362][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default?Name=Player
+[2016.02.24-16.12.10:396][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004BE7FC0C20
+[2016.02.24-16.12.10:445][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-16.12.10:445][  0]LogMemory: Process Physical Memory: 590.89 MB used, 590.89 MB peak
+[2016.02.24-16.12.10:445][  0]LogMemory: Process Virtual Memory: 572.07 MB used, 572.07 MB peak
+[2016.02.24-16.12.10:445][  0]LogMemory: Physical Memory: 6171.17 MB used, 8113.81 MB total
+[2016.02.24-16.12.10:445][  0]LogMemory: Virtual Memory: 1171.30 MB used, 134217728.00 MB total
+[2016.02.24-16.12.10:445][  0]LogMemory: 
+[2016.02.24-16.12.10:445][  0]Allocator Stats for TBB: (not implemented)
+[2016.02.24-16.12.10:709][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'Arrow': CharacterBP_C /Game/Character/CharacterBP.Default__CharacterBP_C
+[2016.02.24-16.12.11:145][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2016.02.24-16.12.11:176][  0]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2016.02.24-16.12.11:234][  0]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2016.02.24-16.12.11:271][  0]LogMaterial: Missing cached shader map for material CharacterMaterial, compiling. 
+[2016.02.24-16.12.11:351][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2016.02.24-16.12.11:471][  0]Log
