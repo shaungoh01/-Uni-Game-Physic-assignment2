@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>3524</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>ThirdPersonPunch</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.2-2818068+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine>-HTTP=WinInet</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/Epic Games/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/Epic Games/4.10/</RootDir>
+<MachineId>7722EF384C4720144D202CA43FB8678D</MachineId>
+<EpicAccountId>30f4ab32c514423f9162b30ccdae0155</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 634] 
+Type mismatch: Expected Minimal_Default_C, Found LevelScriptBlueprint
+</ErrorMessage>
+<MiscNumberOfCores>2</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>4</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>Intel(R) HD Graphics 530</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8507944960</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>283623424</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140730075815936</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>2536292352</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>3336458240</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>5906542592</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>5906542592</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>

@@ -1,0 +1,120 @@
+﻿[2016.02.25-01.00.47:269][  0]Log file open, 02/25/16 09:00:47
+[2016.02.25-01.00.47:269][  0]LogInit:Display: Running engine for game: ThirdPersonPunch
+[2016.02.25-01.00.47:269][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.25-01.00.47:269][  0]LogInit:Display: RandInit(-13113628) SRandInit(-13113624).
+[2016.02.25-01.00.47:269][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.02.25-01.00.47:269][  0]LogStats: Stats thread started at 0.063230
+[2016.02.25-01.00.47:269][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.25-01.00.47:269][  0]LogInit: API Version: 2758231
+[2016.02.25-01.00.47:269][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.25-01.00.47:269][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.25-01.00.47:269][  0]LogInit: Build Configuration: Development
+[2016.02.25-01.00.47:269][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.25-01.00.47:269][  0]LogInit: Command line: -HTTP=WinInet
+[2016.02.25-01.00.47:269][  0]LogInit: Base directory: D:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.25-01.00.47:269][  0]LogInit: Rocket: 1
+[2016.02.25-01.00.47:281][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.25-01.00.47:287][  0]LogInit: Object subsystem initialized
+[2016.02.25-01.00.47:288][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.25-01.00.47:288][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.25-01.00.47:300][  0]LogInit: Computer: DESKTOP-63HJ9HN
+[2016.02.25-01.00.47:300][  0]LogInit: User: ShaunGoh
+[2016.02.25-01.00.47:300][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.02.25-01.00.47:300][  0]LogInit: High frequency timer resolution =3.609370 MHz
+[2016.02.25-01.00.47:300][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.25-01.00.47:300][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-01.00.47:300][  0]LogMemory: Process Physical Memory: 55.68 MB used, 55.68 MB peak
+[2016.02.25-01.00.47:300][  0]LogMemory: Process Virtual Memory: 55.52 MB used, 55.52 MB peak
+[2016.02.25-01.00.47:300][  0]LogMemory: Physical Memory: 4180.85 MB used, 8113.81 MB total
+[2016.02.25-01.00.47:300][  0]LogMemory: Virtual Memory: 376.54 MB used, 134217728.00 MB total
+[2016.02.25-01.00.47:330][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.25-01.00.47:724][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.02.25-01.00.47:724][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 1 output[s]
+[2016.02.25-01.00.47:726][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.25-01.00.47:726][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 0 output[s]
+[2016.02.25-01.00.47:726][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.25-01.00.47:729][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.25-01.00.47:729][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.25-01.00.47:732][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.25-01.00.47:735][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Intermediate/Shaders/WorkingDirectory/1384/).
+[2016.02.25-01.00.47:736][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SHAUNG~1/AppData/Local/Temp/UnrealShaderWorkingDir/241CABDE49B9F17FBC53C19421E0B2FD/'.
+[2016.02.25-01.00.47:736][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.25-01.00.48:462][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.25-01.00.48:465][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.25-01.00.48:468][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.25-01.00.48:471][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.25-01.00.48:473][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.25-01.00.48:475][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.25-01.00.48:477][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.25-01.00.48:480][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.25-01.00.48:483][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.25-01.00.48:489][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.25-01.00.48:492][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.25-01.00.48:496][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.25-01.00.48:496][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.25-01.00.48:497][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.25-01.00.48:511][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.25-01.00.48:513][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.25-01.00.48:516][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.25-01.00.48:522][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.25-01.00.48:522][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.25-01.00.48:576][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.25-01.00.48:630][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.25-01.00.48:630][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.25-01.00.48:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.25-01.00.48:630][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.25-01.00.48:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.25-01.00.48:630][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.25-01.00.48:687][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.25-01.00.48:698][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun Goh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.25-01.00.48:865][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.25-01.00.48:868][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.25-01.00.48:965][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.25-01.00.48:965][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.25-01.00.49:187][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.25-01.00.49:784][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.25-01.00.49:892][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2016.02.25-01.00.50:045][  0]SourceControl: Info Source control is disabled
+[2016.02.25-01.00.50:082][  0]SourceControl: Info Source control is disabled
+[2016.02.25-01.00.50:097][  0]SourceControl: Info Source control is disabled
+[2016.02.25-01.00.50:103][  0]SourceControl: Info Source control is disabled
+[2016.02.25-01.00.50:267][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.25-01.00.50:267][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.25-01.00.50:322][  0]LogEngine: Initializing Engine...
+[2016.02.25-01.00.50:324][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.25-01.00.50:325][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.25-01.00.50:460][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.25-01.00.50:464][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-01.00.50:470][  0]LogInit: FAudioDevice initialized.
+[2016.02.25-01.00.50:498][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.25-01.00.50:503][  0]LogInit: Texture streaming: Enabled
+[2016.02.25-01.00.50:506][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.25-01.00.50:506][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.25-01.00.50:506][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7722ef384c4720144d202ca43fb8678d|30f4ab32c514423f9162b30ccdae0155|99934fa0-303e-4f28-b544-4cacd01c1c5b
+[2016.02.25-01.00.50:506][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.25-01.00.50:514][  0]LogInit: Transaction tracking system initialized
+[2016.02.25-01.00.50:534][  0]BlueprintLog: New page: Editor Load
+[2016.02.25-01.00.50:598][  0]LocalizationService: Info Localization service is disabled
+[2016.02.25-01.00.50:650][  0]LogConsoleResponse:Display: 
+[2016.02.25-01.00.50:777][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.25-01.00.50:814][  0]LogFileCache: Scanning file cache for directory 'D:/MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/' took 0.01s
+[2016.02.25-01.00.50:814][  0]SourceControl: Info Source control is disabled
+[2016.02.25-01.00.50:814][  0]Cmd: MAP LOAD FILE="../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.25-01.00.50:815][  0]LightingResults: New page: Lighting Build
+[2016.02.25-01.00.50:817][  0]MapCheck: New page: Map Check
+[2016.02.25-01.00.50:817][  0]LightingResults: New page: Lighting Build
+[2016.02.25-01.00.50:835][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000E321BAAC0
+[2016.02.25-01.00.51:281][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.25-01.00.51:290][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.25-01.00.51:292][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.25-01.00.51:355][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.803ms to complete.
+[2016.02.25-01.00.51:355][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.540
+[2016.02.25-01.00.51:456][  0]LogCollectionManager: Loaded 0 collections in 0.000937 seconds
+[2016.02.25-01.00.51:495][  0]LogFileCache: Scanning file cache for directory 'D:/MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/Collections/' took 0.01s
+[2016.02.25-01.00.51:495][  0]LogFileCache: Scanning file cache for directory 'D:/MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Developers/ShaunGoh/Collections/' took 0.01s
+[2016.02.25-01.00.51:495][  0]LogFileCache: Scanning file cache for directory 'D:/MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Collections/' took 0.01s
+[2016.02.25-01.00.51:495][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.02.25-01.00.51:501][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 1893 classes and 338 folders.
+[2016.02.25-01.00.51:504][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.25-01.00.51:535][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.25-01.00.51:537][  0]LogContentBrow

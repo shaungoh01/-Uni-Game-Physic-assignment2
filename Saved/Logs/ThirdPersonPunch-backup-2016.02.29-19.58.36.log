@@ -1,0 +1,916 @@
+﻿[2016.02.29-11.08.21:600][  0]Log file open, 02/29/16 19:08:21
+[2016.02.29-11.08.21:600][  0]LogInit:Display: Running engine for game: ThirdPersonPunch
+[2016.02.29-11.08.21:600][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.29-11.08.21:600][  0]LogInit:Display: RandInit(292673206) SRandInit(292673211).
+[2016.02.29-11.08.21:600][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.02.29-11.08.21:600][  0]LogStats: Stats thread started at 0.080413
+[2016.02.29-11.08.21:600][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.29-11.08.21:600][  0]LogInit: API Version: 2758231
+[2016.02.29-11.08.21:600][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.29-11.08.21:600][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.29-11.08.21:600][  0]LogInit: Build Configuration: Development
+[2016.02.29-11.08.21:600][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.29-11.08.21:600][  0]LogInit: Command line: -HTTP=WinInet
+[2016.02.29-11.08.21:600][  0]LogInit: Base directory: D:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.29-11.08.21:600][  0]LogInit: Rocket: 1
+[2016.02.29-11.08.21:649][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.29-11.08.21:658][  0]LogInit: Object subsystem initialized
+[2016.02.29-11.08.21:659][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.29-11.08.21:659][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.29-11.08.21:676][  0]LogInit: Computer: DESKTOP-63HJ9HN
+[2016.02.29-11.08.21:676][  0]LogInit: User: ShaunGoh
+[2016.02.29-11.08.21:676][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.02.29-11.08.21:676][  0]LogInit: High frequency timer resolution =3.609370 MHz
+[2016.02.29-11.08.21:676][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.29-11.08.21:676][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-11.08.21:676][  0]LogMemory: Process Physical Memory: 55.80 MB used, 55.80 MB peak
+[2016.02.29-11.08.21:676][  0]LogMemory: Process Virtual Memory: 55.63 MB used, 55.63 MB peak
+[2016.02.29-11.08.21:676][  0]LogMemory: Physical Memory: 4876.98 MB used, 8113.81 MB total
+[2016.02.29-11.08.21:676][  0]LogMemory: Virtual Memory: 376.54 MB used, 134217728.00 MB total
+[2016.02.29-11.08.21:710][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.29-11.08.22:416][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.02.29-11.08.22:416][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 1 output[s]
+[2016.02.29-11.08.22:417][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.29-11.08.22:417][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 0 output[s]
+[2016.02.29-11.08.22:417][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.29-11.08.22:424][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.29-11.08.22:424][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.29-11.08.22:431][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.29-11.08.22:435][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Intermediate/Shaders/WorkingDirectory/3836/).
+[2016.02.29-11.08.22:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SHAUNG~1/AppData/Local/Temp/UnrealShaderWorkingDir/F3E09BB442D1C9798019A7AD0C58F7C0/'.
+[2016.02.29-11.08.22:437][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.29-11.08.23:567][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.29-11.08.23:579][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.29-11.08.23:584][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.29-11.08.23:592][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.29-11.08.23:599][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.29-11.08.23:603][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.29-11.08.23:613][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.29-11.08.23:617][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.29-11.08.23:619][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.29-11.08.23:625][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.29-11.08.23:630][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.29-11.08.23:640][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.29-11.08.23:640][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.29-11.08.23:643][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.29-11.08.23:658][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.29-11.08.23:667][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.29-11.08.23:684][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.29-11.08.23:686][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.29-11.08.23:686][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.29-11.08.23:783][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.29-11.08.23:902][  0]LogDerivedDataCache: Loaded boot cache 0.12s 41MB C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.29-11.08.23:902][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.29-11.08.23:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.29-11.08.23:903][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.29-11.08.23:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.29-11.08.23:903][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.29-11.08.23:984][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.29-11.08.23:996][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun Goh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.29-11.08.24:327][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.29-11.08.24:329][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.29-11.08.24:503][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.29-11.08.24:503][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.29-11.08.25:152][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.29-11.08.26:308][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.29-11.08.26:414][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.02.29-11.08.26:739][  0]SourceControl: Info Source control is disabled
+[2016.02.29-11.08.26:815][  0]SourceControl: Info Source control is disabled
+[2016.02.29-11.08.26:833][  0]SourceControl: Info Source control is disabled
+[2016.02.29-11.08.26:851][  0]SourceControl: Info Source control is disabled
+[2016.02.29-11.08.27:216][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.29-11.08.27:216][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.02.29-11.08.27:282][  0]LogEngine: Initializing Engine...
+[2016.02.29-11.08.27:284][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.29-11.08.27:285][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.29-11.08.27:547][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.29-11.08.27:551][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.08.27:569][  0]LogInit: FAudioDevice initialized.
+[2016.02.29-11.08.27:620][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Shaun Goh/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.29-11.08.27:649][  0]LogInit: Texture streaming: Enabled
+[2016.02.29-11.08.27:654][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.29-11.08.27:654][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.29-11.08.27:654][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7722ef384c4720144d202ca43fb8678d|30f4ab32c514423f9162b30ccdae0155|99934fa0-303e-4f28-b544-4cacd01c1c5b
+[2016.02.29-11.08.27:654][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.29-11.08.27:670][  0]LogInit: Transaction tracking system initialized
+[2016.02.29-11.08.27:712][  0]BlueprintLog: New page: Editor Load
+[2016.02.29-11.08.27:799][  0]LocalizationService: Info Localization service is disabled
+[2016.02.29-11.08.27:899][  0]LogConsoleResponse:Display: 
+[2016.02.29-11.08.28:109][  0]LogFileCache: Scanning file cache for directory 'D:/MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/' took 0.02s
+[2016.02.29-11.08.28:109][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.29-11.08.28:158][  0]SourceControl: Info Source control is disabled
+[2016.02.29-11.08.28:158][  0]Cmd: MAP LOAD FILE="../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.29-11.08.28:159][  0]LightingResults: New page: Lighting Build
+[2016.02.29-11.08.28:164][  0]MapCheck: New page: Map Check
+[2016.02.29-11.08.28:164][  0]LightingResults: New page: Lighting Build
+[2016.02.29-11.08.28:187][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000905D1AB6A0
+[2016.02.29-11.08.30:610][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.08.30:750][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.29-11.08.30:803][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.29-11.08.30:851][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.918ms to complete.
+[2016.02.29-11.08.30:851][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.693
+[2016.02.29-11.08.31:240][  0]LogCollectionManager: Loaded 0 collections in 0.001669 seconds
+[2016.02.29-11.08.31:310][  0]LogFileCache: Scanning file cache for directory 'D:/MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/Collections/' took 0.01s
+[2016.02.29-11.08.31:311][  0]LogFileCache: Scanning file cache for directory 'D:/MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Developers/ShaunGoh/Collections/' took 0.01s
+[2016.02.29-11.08.31:311][  0]LogFileCache: Scanning file cache for directory 'D:/MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Collections/' took 0.01s
+[2016.02.29-11.08.31:311][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.02.29-11.08.31:328][  0]LogContentBrowser: Native class hierarchy populated in 0.0164 seconds. Added 1893 classes and 338 folders.
+[2016.02.29-11.08.31:372][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.02.29-11.08.32:478][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.29-11.08.32:527][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.02.29-11.08.32:841][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.29-11.08.32:899][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.29-11.08.32:950][  0]LogLoad: Full Startup: 12.04 seconds (BP compile: 0.22 seconds)
+[2016.02.29-11.08.33:292][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.29-11.08.33:623][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.02.29-11.08.34:108][  0]LogRenderer: Reallocating scene render targets to support 1208x644 (Frame:2).
+[2016.02.29-11.08.35:476][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.29-11.08.35:611][  7]LogAssetRegistry: Asset discovery search completed in 9.2083 seconds
+[2016.02.29-11.08.35:611][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.02.29-11.08.36:964][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.36:964][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.08.36:964][ 42]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:08:36 AM)
+[2016.02.29-11.08.36:965][ 42]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.08.36:996][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030975s)
+[2016.02.29-11.08.36:999][ 42]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.08.37:002][ 42]LogPlayLevel: PIE: World Init took: (0.005501s)
+[2016.02.29-11.08.37:004][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.039197s)
+[2016.02.29-11.08.37:004][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.08.37:063][ 42]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.08.37:071][ 42]LogInit: FAudioDevice initialized.
+[2016.02.29-11.08.37:181][ 42]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.08.37:223][ 42]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.08.37
+[2016.02.29-11.08.37:223][ 42]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.08.37:223][ 42]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.08.37:231][ 42]LogWorld: Bringing up level for play took: 0.013727
+[2016.02.29-11.08.37:235][ 42]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.08.37:260][ 42]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.545
+[2016.02.29-11.08.37:290][ 42]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.39:793][111]LogEditorViewport: Clicking Background
+[2016.02.29-11.08.42:833][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.42:957][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.42:988][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090640A5080
+[2016.02.29-11.08.43:752][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.43:752][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.08.43:753][220]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:08:43 AM)
+[2016.02.29-11.08.43:753][220]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.08.43:779][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025266s)
+[2016.02.29-11.08.43:780][220]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.08.43:781][220]LogPlayLevel: PIE: World Init took: (0.002267s)
+[2016.02.29-11.08.43:782][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.028551s)
+[2016.02.29-11.08.43:835][220]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.08.43:841][220]LogInit: FAudioDevice initialized.
+[2016.02.29-11.08.43:890][220]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.08.43:895][220]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.08.43
+[2016.02.29-11.08.43:895][220]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.08.43:895][220]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.08.43:896][220]LogWorld: Bringing up level for play took: 0.005554
+[2016.02.29-11.08.43:896][220]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.08.43:897][220]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.818
+[2016.02.29-11.08.43:898][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.45:201][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.45:252][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.45:317][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090649FBC40
+[2016.02.29-11.08.57:765][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.08.57:765][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.08.57:765][569]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:08:57 AM)
+[2016.02.29-11.08.57:765][569]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.08.57:787][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021928s)
+[2016.02.29-11.08.57:790][569]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.08.57:791][569]LogPlayLevel: PIE: World Init took: (0.003830s)
+[2016.02.29-11.08.57:792][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.026337s)
+[2016.02.29-11.08.57:847][569]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.08.57:852][569]LogInit: FAudioDevice initialized.
+[2016.02.29-11.08.57:892][569]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.08.57:897][569]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.08.57
+[2016.02.29-11.08.57:897][569]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.08.57:897][569]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.08.57:898][569]LogWorld: Bringing up level for play took: 0.004627
+[2016.02.29-11.08.57:899][569]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.08.57:900][569]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.815
+[2016.02.29-11.08.57:901][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.09.01:654][663]LogEditorViewport: Clicking Background
+[2016.02.29-11.09.02:351][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.29-11.09.02:352][680]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor"
+[2016.02.29-11.09.02:793][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.29-11.09.02:793][681]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor"
+[2016.02.29-11.09.03:623][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.29-11.09.03:623][701]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor"
+[2016.02.29-11.09.04:237][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.29-11.09.04:237][714]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor"
+[2016.02.29-11.09.05:287][744]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.09.05:362][744]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.09.05:426][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000904BF7C220
+[2016.02.29-11.09.06:581][774]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.09.06:581][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.09.06:582][774]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:09:06 AM)
+[2016.02.29-11.09.06:582][774]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.09.06:609][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027391s)
+[2016.02.29-11.09.06:611][774]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.09.06:611][774]LogPlayLevel: PIE: World Init took: (0.001929s)
+[2016.02.29-11.09.06:611][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.029625s)
+[2016.02.29-11.09.06:654][774]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor"
+[2016.02.29-11.09.06:657][774]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.09.06:668][774]LogInit: FAudioDevice initialized.
+[2016.02.29-11.09.06:703][774]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.09.06:707][774]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.09.06
+[2016.02.29-11.09.06:707][774]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.09.06:707][774]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.09.06:708][774]LogWorld: Bringing up level for play took: 0.003698
+[2016.02.29-11.09.06:708][774]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.09.06:709][774]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.006
+[2016.02.29-11.09.06:729][774]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor"
+[2016.02.29-11.09.06:729][774]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.09.08:568][838]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.09.08:568][838]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.09.24:588][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.09.24:655][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.09.24:707][449]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000906CB03380
+[2016.02.29-11.09.31:572][627]LogActorFactory: Actor Factory created Cube
+[2016.02.29-11.09.33:603][677]LogActorFactory: Actor Factory created Cube
+[2016.02.29-11.10.41:034][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.10.41:034][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.10.41:035][247]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:10:41 AM)
+[2016.02.29-11.10.41:035][247]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.10.41:048][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013518s)
+[2016.02.29-11.10.41:050][247]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.10.41:050][247]LogPlayLevel: PIE: World Init took: (0.001672s)
+[2016.02.29-11.10.41:051][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016088s)
+[2016.02.29-11.10.41:051][247]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.10.41:107][247]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube3_4"
+[2016.02.29-11.10.41:118][247]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.10.41:134][247]LogInit: FAudioDevice initialized.
+[2016.02.29-11.10.41:183][247]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.10.41:186][247]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.10.41
+[2016.02.29-11.10.41:186][247]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.10.41:186][247]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.10.41:186][247]LogWorld: Bringing up level for play took: 0.003058
+[2016.02.29-11.10.41:187][247]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.10.41:187][247]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.473
+[2016.02.29-11.10.41:201][247]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube3_4"
+[2016.02.29-11.10.41:201][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.11.01:934][ 20]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.01:934][ 20]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.16:006][537]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.16:006][537]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.17:660][601]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.17:660][601]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.19:182][658]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.19:182][658]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.22:890][796]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.22:890][796]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.28:438][  9]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.28:439][  9]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.11.29:358][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.11.29:430][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.11.29:465][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090510ADEE0
+[2016.02.29-11.11.39:695][295]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.29-11.11.40:439][295]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2016.02.29-11.11.49:047][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.11.49:048][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.02.29-11.11.53:378][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.02.29-11.11.55:028][528]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:6375).
+[2016.02.29-11.11.57:905][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.02.29-11.12.01:190][622]BlueprintLog: New page: Compile Ai_char
+[2016.02.29-11.12.01:293][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.02.29-11.12.01:404][622]BlueprintEditorCompileResults: Info [0220.49] Compile of Ai_char successful! [in 214 ms]
+[2016.02.29-11.12.02:129][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Ai_char" FILE="../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/Ai_char.uasset" SILENT=true
+[2016.02.29-11.12.02:294][631]LogSavePackage: Save=64.334221ms
+[2016.02.29-11.12.02:294][631]LogSavePackage: Moving '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/Ai_char6C01412D4E08369821DB239C01C01A6B.tmp' to '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/Ai_char.uasset'
+[2016.02.29-11.12.02:309][631]LogSavePackage: Total save time: 173.116639ms
+[2016.02.29-11.12.02:310][631]LogSavePackage:Display: Finished SavePackage ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/Ai_char.uasset
+[2016.02.29-11.19.55:095][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.19.55:377][796]LogSavePackage: Save=184.686798ms
+[2016.02.29-11.19.55:377][796]LogSavePackage: Moving '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/Minimal_Default_Auto16300BEE9411102AAF65BEABCEE63DB33.tmp' to '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2016.02.29-11.19.55:387][796]LogSavePackage: Total save time: 213.027481ms
+[2016.02.29-11.19.55:387][796]LogSavePackage:Display: Finished SavePackage ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2016.02.29-11.19.55:390][796]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.295
+[2016.02.29-11.19.55:390][796]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.295
+[2016.02.29-11.34.47:703][520]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.34.47:703][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.34.47:704][520]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:34:47 AM)
+[2016.02.29-11.34.47:704][520]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.34.47:731][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026886s)
+[2016.02.29-11.34.47:733][520]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.34.47:734][520]LogPlayLevel: PIE: World Init took: (0.002066s)
+[2016.02.29-11.34.47:734][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.029842s)
+[2016.02.29-11.34.47:734][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.34.47:734][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.02.29-11.34.47:805][520]LogSelection:Warning: PIE object was selected: "Ai_char_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Ai_char_58"
+[2016.02.29-11.34.47:808][520]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.34.47:821][520]LogInit: FAudioDevice initialized.
+[2016.02.29-11.34.47:861][520]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.34.47:866][520]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.34.47
+[2016.02.29-11.34.47:866][520]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.34.47:866][520]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.34.47:904][520]LogWorld: Bringing up level for play took: 0.042361
+[2016.02.29-11.34.47:908][520]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.34.47:910][520]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.195
+[2016.02.29-11.34.47:934][520]LogSelection:Warning: PIE object was selected: "Ai_char_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Ai_char_58"
+[2016.02.29-11.34.47:934][520]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.34.51:062][626]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.34.51:062][626]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.34.56:633][836]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.34.56:633][836]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.35.00:295][962]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.35.00:295][962]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.35.08:228][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.35.08:330][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.35.08:380][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000904DB9BB00
+[2016.02.29-11.35.08:381][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000901E3AA200
+[2016.02.29-11.36.06:159][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.36.06:159][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.02.29-11.36.06:878][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.02.29-11.36.07:927][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.02.29-11.36.09:291][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.02.29-11.36.24:555][338]BlueprintLog: New page: Compile Ai_char
+[2016.02.29-11.36.24:704][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.02.29-11.36.24:775][338]BlueprintEditorCompileResults: Info [1683.86] Compile of Ai_char successful! [in 219 ms]
+[2016.02.29-11.36.27:152][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.36.27:152][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.36.27:152][380]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:36:27 AM)
+[2016.02.29-11.36.27:152][380]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.36.27:171][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018152s)
+[2016.02.29-11.36.27:174][380]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.36.27:175][380]LogPlayLevel: PIE: World Init took: (0.004817s)
+[2016.02.29-11.36.27:176][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.023684s)
+[2016.02.29-11.36.27:176][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.36.27:241][380]LogSelection:Warning: PIE object was selected: "Ai_char_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Ai_char_58"
+[2016.02.29-11.36.27:249][380]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.36.27:257][380]LogInit: FAudioDevice initialized.
+[2016.02.29-11.36.27:299][380]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.36.27:303][380]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.36.27
+[2016.02.29-11.36.27:303][380]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.36.27:303][380]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.36.27:304][380]LogWorld: Bringing up level for play took: 0.004583
+[2016.02.29-11.36.27:305][380]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.36.27:306][380]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.592
+[2016.02.29-11.36.27:335][380]LogSelection:Warning: PIE object was selected: "Ai_char_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Ai_char_58"
+[2016.02.29-11.36.27:335][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.36.29:766][457]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.29:766][457]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.35:558][678]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.35:558][678]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.40:290][843]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.40:291][843]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.45:675][ 36]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.45:675][ 36]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.48:619][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.36.48:724][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.36.48:768][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090296E0EA0
+[2016.02.29-11.36.50:188][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.36.50:188][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.36.50:188][178]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:36:50 AM)
+[2016.02.29-11.36.50:188][178]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.36.50:209][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020717s)
+[2016.02.29-11.36.50:210][178]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.36.50:210][178]LogPlayLevel: PIE: World Init took: (0.001711s)
+[2016.02.29-11.36.50:211][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022789s)
+[2016.02.29-11.36.50:274][178]LogSelection:Warning: PIE object was selected: "Ai_char_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Ai_char_58"
+[2016.02.29-11.36.50:277][178]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.36.50:292][178]LogInit: FAudioDevice initialized.
+[2016.02.29-11.36.50:338][178]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.36.50:342][178]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.36.50
+[2016.02.29-11.36.50:342][178]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.36.50:342][178]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.36.50:343][178]LogWorld: Bringing up level for play took: 0.004020
+[2016.02.29-11.36.50:343][178]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.36.50:344][178]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.371
+[2016.02.29-11.36.50:373][178]LogSelection:Warning: PIE object was selected: "Ai_char_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Ai_char_58"
+[2016.02.29-11.36.50:373][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.36.55:488][370]PIE:Warning: Warning CharacterBP_C_1.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.36.55:488][370]PIE:Warning: Warning CharacterBP_C_1.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.03:339][682]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.03:445][682]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.03:494][682]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090554D0CC0
+[2016.02.29-11.37.05:510][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2016.02.29-11.37.06:764][757]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube3)
+[2016.02.29-11.37.07:296][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2016.02.29-11.37.08:290][791]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.29-11.37.12:563][880]LogEditorViewport: Clicking on Actor (LMB): CharacterBP_C (CharacterBP)
+[2016.02.29-11.37.14:710][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.14:710][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.37.14:710][920]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:37:14 AM)
+[2016.02.29-11.37.14:711][920]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.37.14:743][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031876s)
+[2016.02.29-11.37.14:744][920]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.37.14:744][920]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2016.02.29-11.37.14:744][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.033526s)
+[2016.02.29-11.37.14:845][920]LogSelection:Warning: PIE object was selected: "CharacterBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1"
+[2016.02.29-11.37.14:848][920]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.37.14:860][920]LogInit: FAudioDevice initialized.
+[2016.02.29-11.37.14:895][920]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.37.14:898][920]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.37.14
+[2016.02.29-11.37.14:898][920]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.37.14:899][920]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.37.14:899][920]LogWorld: Bringing up level for play took: 0.003951
+[2016.02.29-11.37.14:900][920]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.37.14:900][920]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.185
+[2016.02.29-11.37.14:956][920]LogSelection:Warning: PIE object was selected: "CharacterBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1"
+[2016.02.29-11.37.14:956][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.17:001][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.17:097][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.17:138][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000901E77E2A0
+[2016.02.29-11.37.26:792][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.37.26:792][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.02.29-11.37.29:383][200]BlueprintLog: New page: Compile CharacterBP
+[2016.02.29-11.37.29:511][200]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CollisionCylinder and CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.29-11.37.29:511][200]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.Arrow and ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.29-11.37.29:511][200]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharMoveComp and CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.29-11.37.29:511][200]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.29-11.37.29:666][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.02.29-11.37.29:724][200]BlueprintEditorCompileResults: Info [1748.81] Compile of CharacterBP successful! [in 340 ms]
+[2016.02.29-11.37.30:436][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/CharacterBP.uasset" SILENT=true
+[2016.02.29-11.37.30:557][210]LogSavePackage: Save=103.359032ms
+[2016.02.29-11.37.30:557][210]LogSavePackage: Moving '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/CharacterBP5F0807484E057EF90C7400A890CBCEC2.tmp' to '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/CharacterBP.uasset'
+[2016.02.29-11.37.30:559][210]LogSavePackage: Total save time: 121.736478ms
+[2016.02.29-11.37.30:559][210]LogSavePackage:Display: Finished SavePackage ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/CharacterBP.uasset
+[2016.02.29-11.37.30:811][216]Cmd: SELECT NONE
+[2016.02.29-11.37.32:372][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.29-11.37.33:834][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.33:834][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.37.33:835][270]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:37:33 AM)
+[2016.02.29-11.37.33:835][270]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.37.33:854][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018840s)
+[2016.02.29-11.37.33:855][270]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.37.33:856][270]LogPlayLevel: PIE: World Init took: (0.001806s)
+[2016.02.29-11.37.33:856][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020996s)
+[2016.02.29-11.37.33:856][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.37.33:908][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000901E44C220
+[2016.02.29-11.37.33:915][270]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.37.33:925][270]LogInit: FAudioDevice initialized.
+[2016.02.29-11.37.33:961][270]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.37.33:966][270]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.37.33
+[2016.02.29-11.37.33:966][270]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.37.33:966][270]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.37.33:966][270]LogWorld: Bringing up level for play took: 0.004673
+[2016.02.29-11.37.33:967][270]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.37.33:967][270]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.747
+[2016.02.29-11.37.33:969][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.34:810][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2016.02.29-11.37.34:810][292]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube3_4"
+[2016.02.29-11.37.37:169][375]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.37:169][375]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.39:604][465]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.39:604][465]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.40:880][513]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.40:880][513]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.42:471][571]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.42:471][571]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.43:710][617]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.43:710][617]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.45:905][697]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.45:905][697]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.46:271][711]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.46:271][711]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.37.53:110][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.53:165][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.37.53:232][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090554D2020
+[2016.02.29-11.37.53:233][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000902F92ACA0
+[2016.02.29-11.40.17:765][  5]BlueprintLog: New page: Compile CharacterBP
+[2016.02.29-11.40.17:939][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.40.17:939][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.02.29-11.40.18:015][  5]BlueprintEditorCompileResults: Info [1917.10] Compile of CharacterBP successful! [in 249 ms]
+[2016.02.29-11.40.18:479][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/CharacterBP.uasset" SILENT=true
+[2016.02.29-11.40.18:595][ 11]LogSavePackage: Save=110.649223ms
+[2016.02.29-11.40.18:595][ 11]LogSavePackage: Moving '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/CharacterBP703793144A708DE090B8E58F0EDAF444.tmp' to '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/CharacterBP.uasset'
+[2016.02.29-11.40.18:596][ 11]LogSavePackage: Total save time: 115.322340ms
+[2016.02.29-11.40.18:596][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/CharacterBP.uasset
+[2016.02.29-11.40.21:212][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.40.21:212][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.40.21:212][ 61]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:40:21 AM)
+[2016.02.29-11.40.21:212][ 61]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.40.21:225][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012741s)
+[2016.02.29-11.40.21:227][ 61]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.40.21:227][ 61]LogPlayLevel: PIE: World Init took: (0.001865s)
+[2016.02.29-11.40.21:227][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015020s)
+[2016.02.29-11.40.21:228][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.40.21:304][ 61]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.40.21:315][ 61]LogInit: FAudioDevice initialized.
+[2016.02.29-11.40.21:349][ 61]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.40.21:353][ 61]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.40.21
+[2016.02.29-11.40.21:353][ 61]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.40.21:353][ 61]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.40.21:354][ 61]LogWorld: Bringing up level for play took: 0.004016
+[2016.02.29-11.40.21:354][ 61]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.40.21:354][ 61]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.64
+[2016.02.29-11.40.21:356][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.40.29:301][374]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.29:301][374]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.30:893][435]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.30:893][435]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.32:040][477]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.32:040][477]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.33:279][522]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.33:279][522]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.37:019][659]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.37:019][659]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.38:815][726]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.38:815][726]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.41:334][819]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.41:334][819]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.42:472][860]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.42:472][860]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.40.44:165][922]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.40.44:218][922]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.40.44:277][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000901F0F05E0
+[2016.02.29-11.40.44:278][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000901E1F4680
+[2016.02.29-11.40.45:573][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.02.29-11.41.18:186][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.41.18:186][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.41.18:186][568]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:41:18 AM)
+[2016.02.29-11.41.18:186][568]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.41.18:204][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017837s)
+[2016.02.29-11.41.18:205][568]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.41.18:205][568]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2016.02.29-11.41.18:205][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018720s)
+[2016.02.29-11.41.18:205][568]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.41.18:205][568]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.02.29-11.41.18:276][568]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube2_4"
+[2016.02.29-11.41.18:282][568]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.41.18:298][568]LogInit: FAudioDevice initialized.
+[2016.02.29-11.41.18:338][568]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.41.18:341][568]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.41.18
+[2016.02.29-11.41.18:341][568]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.41.18:342][568]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.41.18:342][568]LogWorld: Bringing up level for play took: 0.003915
+[2016.02.29-11.41.18:343][568]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.41.18:343][568]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.372
+[2016.02.29-11.41.18:357][568]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube2_4"
+[2016.02.29-11.41.18:357][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.41.19:825][622]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.19:826][622]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.21:753][692]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.21:753][692]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.23:943][772]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.23:943][772]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.26:033][846]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.26:033][846]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.27:570][900]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.27:570][900]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.37:641][269]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.37:641][269]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.39:131][324]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.39:132][324]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.41.47:495][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.41.47:583][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.41.47:630][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000904C0E8360
+[2016.02.29-11.41.50:193][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.29-11.41.52:277][727]Cmd: DELETE
+[2016.02.29-11.41.52:277][727]Cmd: ACTOR DELETE
+[2016.02.29-11.41.52:314][727]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.29-11.41.52:398][727]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2016.02.29-11.41.52:976][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2016.02.29-11.41.53:205][743]Cmd: DELETE
+[2016.02.29-11.41.53:205][743]Cmd: ACTOR DELETE
+[2016.02.29-11.41.53:207][743]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.29-11.41.53:314][743]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2016.02.29-11.41.53:852][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2016.02.29-11.41.54:002][757]Cmd: DELETE
+[2016.02.29-11.41.54:002][757]Cmd: ACTOR DELETE
+[2016.02.29-11.41.54:002][757]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.29-11.41.54:085][757]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2016.02.29-11.41.54:632][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2016.02.29-11.41.54:751][770]Cmd: DELETE
+[2016.02.29-11.41.54:751][770]Cmd: ACTOR DELETE
+[2016.02.29-11.41.54:751][770]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.29-11.41.54:825][770]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2016.02.29-11.42.00:064][881]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.00:064][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.42.00:064][881]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:42:00 AM)
+[2016.02.29-11.42.00:064][881]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.42.00:083][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019137s)
+[2016.02.29-11.42.00:084][881]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.42.00:085][881]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2016.02.29-11.42.00:085][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020505s)
+[2016.02.29-11.42.00:153][881]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.42.00:166][881]LogInit: FAudioDevice initialized.
+[2016.02.29-11.42.00:207][881]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.42.00:211][881]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.42.00
+[2016.02.29-11.42.00:211][881]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.42.00:211][881]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.42.00:212][881]LogWorld: Bringing up level for play took: 0.003939
+[2016.02.29-11.42.00:212][881]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.42.00:213][881]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.502
+[2016.02.29-11.42.00:214][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.02:805][967]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.02:805][967]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.07:550][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.07:596][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.07:665][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000904C0E80E0
+[2016.02.29-11.42.08:968][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.08:969][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.42.08:970][171]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:42:08 AM)
+[2016.02.29-11.42.08:970][171]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.42.08:983][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012788s)
+[2016.02.29-11.42.08:985][171]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.42.08:985][171]LogPlayLevel: PIE: World Init took: (0.002008s)
+[2016.02.29-11.42.08:985][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015125s)
+[2016.02.29-11.42.09:069][171]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.42.09:076][171]LogInit: FAudioDevice initialized.
+[2016.02.29-11.42.09:111][171]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.42.09:116][171]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.42.09
+[2016.02.29-11.42.09:116][171]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.42.09:116][171]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.42.09:119][171]LogWorld: Bringing up level for play took: 0.007397
+[2016.02.29-11.42.09:121][171]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.42.09:124][171]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.409
+[2016.02.29-11.42.09:125][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.10:155][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.10:214][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.10:288][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090273CE840
+[2016.02.29-11.42.11:374][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.11:374][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.42.11:374][225]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:42:11 AM)
+[2016.02.29-11.42.11:374][225]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.42.11:392][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017197s)
+[2016.02.29-11.42.11:395][225]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.42.11:396][225]LogPlayLevel: PIE: World Init took: (0.003547s)
+[2016.02.29-11.42.11:396][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021347s)
+[2016.02.29-11.42.11:461][225]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.42.11:467][225]LogInit: FAudioDevice initialized.
+[2016.02.29-11.42.11:508][225]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.42.11:512][225]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.42.11
+[2016.02.29-11.42.11:512][225]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.42.11:512][225]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.42.11:513][225]LogWorld: Bringing up level for play took: 0.003842
+[2016.02.29-11.42.11:513][225]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.42.11:513][225]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.798
+[2016.02.29-11.42.11:515][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.13:405][285]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.13:405][285]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.17:288][437]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.17:337][437]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.17:414][437]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000901FC5DF80
+[2016.02.29-11.42.18:985][471]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.18:985][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.42.18:985][471]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:42:18 AM)
+[2016.02.29-11.42.18:985][471]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.42.19:001][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015583s)
+[2016.02.29-11.42.19:002][471]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.42.19:002][471]LogPlayLevel: PIE: World Init took: (0.001589s)
+[2016.02.29-11.42.19:003][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017632s)
+[2016.02.29-11.42.19:081][471]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.42.19:095][471]LogInit: FAudioDevice initialized.
+[2016.02.29-11.42.19:138][471]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.42.19:144][471]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.42.19
+[2016.02.29-11.42.19:145][471]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.42.19:145][471]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.42.19:145][471]LogWorld: Bringing up level for play took: 0.007204
+[2016.02.29-11.42.19:146][471]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.42.19:147][471]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.432
+[2016.02.29-11.42.19:148][471]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.21:303][553]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.21:303][553]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.27:093][782]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.27:093][782]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.29:503][868]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.29:503][868]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.33:498][  3]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.33:498][  3]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.37:620][147]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.37:620][147]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.42.38:792][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.38:845][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.42.38:916][190]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090296E0E00
+[2016.02.29-11.42.43:897][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2016.02.29-11.42.45:332][323]Cmd: DELETE
+[2016.02.29-11.42.45:332][323]Cmd: ACTOR DELETE
+[2016.02.29-11.42.45:334][323]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.29-11.42.45:446][323]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2016.02.29-11.42.46:714][354]LogEditorViewport: Clicking on Actor (LMB): CharacterBP_C (CharacterBP)
+[2016.02.29-11.43.02:763][671]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.29-11.43.03:159][678]LogEditorViewport: Clicking on Actor (LMB): Ai_char_C (Ai_char)
+[2016.02.29-11.43.25:818][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.43.25:818][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.43.25:818][159]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:43:25 AM)
+[2016.02.29-11.43.25:818][159]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.43.25:833][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013830s)
+[2016.02.29-11.43.25:834][159]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.43.25:835][159]LogPlayLevel: PIE: World Init took: (0.002564s)
+[2016.02.29-11.43.25:835][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017092s)
+[2016.02.29-11.43.25:836][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.43.25:837][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.02.29-11.43.25:906][159]LogSelection:Warning: PIE object was selected: "Ai_char_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Ai_char_58"
+[2016.02.29-11.43.25:909][159]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.43.25:919][159]LogInit: FAudioDevice initialized.
+[2016.02.29-11.43.25:960][159]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.43.25:964][159]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.43.25
+[2016.02.29-11.43.25:964][159]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.43.25:964][159]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.43.25:965][159]LogWorld: Bringing up level for play took: 0.003874
+[2016.02.29-11.43.25:965][159]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.43.25:966][159]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.749
+[2016.02.29-11.43.25:996][159]LogSelection:Warning: PIE object was selected: "Ai_char_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Ai_char_58"
+[2016.02.29-11.43.25:996][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.43.28:520][237]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.43.28:520][237]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.43.29:127][260]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.43.29:127][260]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.43.31:194][334]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.43.31:195][334]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.43.31:697][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.43.31:800][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.43.31:849][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000904BF7C180
+[2016.02.29-11.43.34:335][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.29-11.43.39:918][528]Cmd: EDIT COPY
+[2016.02.29-11.43.40:239][535]Cmd: EDIT PASTE
+[2016.02.29-11.44.00:605][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.02.29-11.44.08:933][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.02.29-11.44.08:994][153]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.02.29-11.44.13:070][242]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2016.02.29-11.44.13:959][258]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.02.29-11.44.38:991][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.44.38:991][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.44.38:991][800]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:44:38 AM)
+[2016.02.29-11.44.38:991][800]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.44.39:011][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020052s)
+[2016.02.29-11.44.39:013][800]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.44.39:014][800]LogPlayLevel: PIE: World Init took: (0.002280s)
+[2016.02.29-11.44.39:014][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022852s)
+[2016.02.29-11.44.39:081][800]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor4"
+[2016.02.29-11.44.39:090][800]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.44.39:102][800]LogInit: FAudioDevice initialized.
+[2016.02.29-11.44.39:141][800]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.44.39:145][800]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.44.39
+[2016.02.29-11.44.39:145][800]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.44.39:145][800]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.44.39:145][800]LogWorld: Bringing up level for play took: 0.003866
+[2016.02.29-11.44.39:146][800]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.44.39:147][800]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.432
+[2016.02.29-11.44.39:163][800]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor4"
+[2016.02.29-11.44.39:163][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.44.41:135][871]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.44.41:135][871]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.44.48:705][155]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.44.48:705][155]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.44.49:291][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.44.49:374][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.44.49:423][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009026DF8AE0
+[2016.02.29-11.44.50:631][204]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.44.50:631][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.44.50:631][204]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:44:50 AM)
+[2016.02.29-11.44.50:632][204]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.44.50:647][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015583s)
+[2016.02.29-11.44.50:650][204]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.44.50:650][204]LogPlayLevel: PIE: World Init took: (0.002483s)
+[2016.02.29-11.44.50:650][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018693s)
+[2016.02.29-11.44.50:713][204]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor4"
+[2016.02.29-11.44.50:722][204]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.44.50:735][204]LogInit: FAudioDevice initialized.
+[2016.02.29-11.44.50:782][204]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.44.50:786][204]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.44.50
+[2016.02.29-11.44.50:786][204]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.44.50:786][204]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.44.50:786][204]LogWorld: Bringing up level for play took: 0.003733
+[2016.02.29-11.44.50:787][204]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.44.50:788][204]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.073
+[2016.02.29-11.44.50:807][204]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor4"
+[2016.02.29-11.44.50:807][204]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.44.52:414][262]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.44.52:414][262]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.45.11:879][ 12]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.45.11:954][ 12]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.45.12:019][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000901B5D4220
+[2016.02.29-11.45.15:559][ 87]LogActorFactory: Actor Factory created Cube
+[2016.02.29-11.45.17:592][132]LogActorFactory: Actor Factory created Cube
+[2016.02.29-11.45.34:400][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2016.02.29-11.45.35:981][518]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.45.35:981][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.45.35:982][518]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:45:35 AM)
+[2016.02.29-11.45.35:982][518]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.45.36:003][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021028s)
+[2016.02.29-11.45.36:004][518]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.45.36:005][518]LogPlayLevel: PIE: World Init took: (0.002161s)
+[2016.02.29-11.45.36:005][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.023583s)
+[2016.02.29-11.45.36:005][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.45.36:005][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.02.29-11.45.36:078][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor3"
+[2016.02.29-11.45.36:081][518]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.45.36:090][518]LogInit: FAudioDevice initialized.
+[2016.02.29-11.45.36:131][518]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.45.36:135][518]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.45.36
+[2016.02.29-11.45.36:135][518]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.45.36:136][518]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.45.36:137][518]LogWorld: Bringing up level for play took: 0.005262
+[2016.02.29-11.45.36:137][518]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.45.36:139][518]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.576
+[2016.02.29-11.45.36:155][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor3"
+[2016.02.29-11.45.36:155][518]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.45.40:128][647]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.45.40:128][647]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.45.53:294][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.45.53:375][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.45.53:431][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009034910D60
+[2016.02.29-11.45.58:069][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.29-11.45.59:112][258]Cmd: EDIT COPY
+[2016.02.29-11.45.59:689][270]Cmd: EDIT PASTE
+[2016.02.29-11.46.36:050][ 40]PIE:Warning: Warning Scale ''X=2.500 Y=2.500 Z=0.000'' is not valid on object '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor5.StaticMeshComponent0 Floor_400x400'.
+[2016.02.29-11.46.37:681][ 77]PIE:Warning: Warning Scale ''X=2.500 Y=2.500 Z=0.000'' is not valid on object '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor5.StaticMeshComponent0 Floor_400x400'.
+[2016.02.29-11.46.40:549][131]LogRenderer: Reallocating scene render targets to support 1432x920 (Frame:37474).
+[2016.02.29-11.46.58:412][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.02.29-11.46.59:418][518]Cmd: EDIT COPY
+[2016.02.29-11.46.59:874][528]Cmd: EDIT COPY
+[2016.02.29-11.47.04:156][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.02.29-11.47.05:709][647]Cmd: EDIT PASTE
+[2016.02.29-11.47.45:901][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.47.45:901][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.47.45:901][514]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:47:45 AM)
+[2016.02.29-11.47.45:901][514]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.47.45:916][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014723s)
+[2016.02.29-11.47.45:920][514]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.47.45:921][514]LogPlayLevel: PIE: World Init took: (0.004990s)
+[2016.02.29-11.47.45:922][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020693s)
+[2016.02.29-11.47.45:982][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009034912C00
+[2016.02.29-11.47.45:982][514]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube5"
+[2016.02.29-11.47.45:990][514]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.47.46:001][514]LogInit: FAudioDevice initialized.
+[2016.02.29-11.47.46:035][514]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.47.46:046][514]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.47.46
+[2016.02.29-11.47.46:046][514]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.47.46:046][514]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.47.46:047][514]LogWorld: Bringing up level for play took: 0.011523
+[2016.02.29-11.47.46:048][514]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.47.46:049][514]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.666
+[2016.02.29-11.47.46:060][514]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube5"
+[2016.02.29-11.47.46:060][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.47.47:456][556]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.47.47:534][556]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.47.47:589][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000904DB9AE80
+[2016.02.29-11.47.48:435][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.02.29-11.47.49:606][600]Cmd: EDIT COPY
+[2016.02.29-11.47.50:030][609]Cmd: EDIT COPY
+[2016.02.29-11.47.51:190][635]Cmd: EDIT PASTE
+[2016.02.29-11.48.08:932][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.48.08:933][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.48.08:933][ 20]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:48:08 AM)
+[2016.02.29-11.48.08:934][ 20]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.48.08:949][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014787s)
+[2016.02.29-11.48.08:952][ 20]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.48.08:953][ 20]LogPlayLevel: PIE: World Init took: (0.003244s)
+[2016.02.29-11.48.08:953][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018653s)
+[2016.02.29-11.48.09:014][ 20]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube6"
+[2016.02.29-11.48.09:016][ 20]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.48.09:021][ 20]LogInit: FAudioDevice initialized.
+[2016.02.29-11.48.09:064][ 20]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.48.09:068][ 20]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.48.09
+[2016.02.29-11.48.09:068][ 20]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.48.09:069][ 20]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.48.09:069][ 20]LogWorld: Bringing up level for play took: 0.005215
+[2016.02.29-11.48.09:070][ 20]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.48.09:071][ 20]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.356
+[2016.02.29-11.48.09:085][ 20]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube6"
+[2016.02.29-11.48.09:085][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.48.11:462][102]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.11:462][102]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.32:754][888]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.32:754][888]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.34:062][935]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.34:062][935]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.35:697][992]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.35:697][992]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.37:292][ 47]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.37:292][ 47]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.38:326][ 83]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.38:326][ 83]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.39:860][134]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.39:860][134]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.40:958][171]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.40:958][171]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.44:289][282]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.44:289][282]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.53:275][597]PIE:Warning: Warning CharacterBP_C_0.Lefthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.53:275][597]PIE:Warning: Warning CharacterBP_C_0.Righthandcol has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2016.02.29-11.48.57:693][755]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.48.57:778][755]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.48.57:834][755]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009022565BC0
+[2016.02.29-11.49.02:373][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.02.29-11.50.02:631][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/finsih" FILE="../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/finsih.uasset" SILENT=true
+[2016.02.29-11.50.02:658][900]LogSavePackage: Save=23.820778ms
+[2016.02.29-11.50.02:658][900]LogSavePackage: Moving '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Saved/finsih0B54A76C4606FFDEC19F2DA5B54DF862.tmp' to '../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/finsih.uasset'
+[2016.02.29-11.50.02:660][900]LogSavePackage: Total save time: 25.755465ms
+[2016.02.29-11.50.02:660][900]LogSavePackage:Display: Finished SavePackage ../../../../../MMLS/TGD2251 - GAME PHYSICS/Assignment2/ThirdPersonPunch/Content/Character/finsih.uasset
+[2016.02.29-11.50.07:255][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.29-11.50.07:255][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.29-11.50.07:256][987]PIE: New page: SIE session: Minimal_Default (Mar 1, 2016, 3:50:07 AM)
+[2016.02.29-11.50.07:256][987]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.29-11.50.07:280][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024028s)
+[2016.02.29-11.50.07:282][987]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.29-11.50.07:282][987]LogPlayLevel: PIE: World Init took: (0.001842s)
+[2016.02.29-11.50.07:282][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.026444s)
+[2016.02.29-11.50.07:282][987]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.29-11.50.07:283][987]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.02.29-11.50.07:350][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000901E77DE40
+[2016.02.29-11.50.07:355][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000902278B6A0
+[2016.02.29-11.50.07:355][987]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube2_4"
+[2016.02.29-11.50.07:361][987]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.29-11.50.07:368][987]LogInit: FAudioDevice initialized.
+[2016.02.29-11.50.07:403][987]LogWorld: Game class is 'MyGame_C'
+[2016.02.29-11.50.07:407][987]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.29-19.50.07
+[2016.02.29-11.50.07:407][987]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.50.07:407][987]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-11.50.07:407][987]LogWorld: Bringing up level for play took: 0.004057
+[2016.02.29-11.50.07:408][987]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-11.50.07:408][987]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.694
+[2016.02.29-11.50.07:424][987]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Cube2_4"
+[2016.02.29-11.50.07:424][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Leve
